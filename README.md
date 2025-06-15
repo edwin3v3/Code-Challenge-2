@@ -20,3 +20,4 @@ The user for this application should be able to:
 
 
 ## Screenshot
+![Getting Started](./screenshot-guestlistApp.jpg)
