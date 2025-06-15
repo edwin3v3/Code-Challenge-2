@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guest List Management</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./output.css">
 
 </head>
 <body>
-    <h1>Guest List Management</h1>
-    <div style="display: flexbox;">
-        <div id="input-section">
-
+    
+    <div class="container mx-auto p-4 h-screen">
+        <h1 class="block text-[27px] font-extrabold">Guest List Management</h1>
+        <div class="flex space-x-1.5 h-[85%]">
+            
+            <div id="input-section" class="w-2/5 h-4/5 p-4 bg-blue-100">
+                <input type="text" id="guestName" class="bg-white">
+                <span id="NameErrorMsg"> </span>
+                <button id="addGuest" class="btn btn-blue">Add Guest</button>
+    
+            </div>
+            <div id="output-section" class="w-3/5 h-4/5 p-4 bg-yellow-100">
+    
+            </div>
         </div>
-        <div id="guest-section">
-
-        </div>
-
+    
     </div>
     
 </body>
